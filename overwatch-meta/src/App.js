@@ -936,12 +936,18 @@ function App() {
                                           const matchedHeroes = MATCHUP_DATA[stat.hero] 
                                             ? Object.entries(MATCHUP_DATA[stat.hero]).filter(([k, v]) => {
                                                 const hInfo = heroesInfo[k];
-                                                // '약간 유리'는 '유리'에, '약간 불리'는 '불리'에 포함되도록 정확하게 매칭 (중복 방지)
-                                                const exactMatch = v.label === grade.filter || 
-                                                                  (grade.filter === '유리' && v.label === '약간 유리') || 
-                                                                  (grade.filter === '불리' && v.label === '약간 불리');
-                                                                  
-                                                return hInfo?.role === roleGroup && exactMatch;
+                                                
+                                                // 영웅 정보가 없거나 역할군이 다르면 무시
+                                                if (!hInfo || hInfo.role !== roleGroup) return false;
+                                                
+                                                // 글자 '포함'이 아니라 '완벽 일치'할 때만 넣도록 빡빡하게 수정!
+                                                if (grade.filter === '매우 유리') return v.label === '매우 유리';
+                                                if (grade.filter === '유리') return v.label === '유리' || v.label === '약간 유리';
+                                                if (grade.filter === '중립') return v.label === '중립' || v.label === '유동적';
+                                                if (grade.filter === '불리') return v.label === '불리' || v.label === '약간 불리';
+                                                if (grade.filter === '매우 불리') return v.label === '매우 불리';
+                                                
+                                                return false;
                                               })
                                             : [];
 
