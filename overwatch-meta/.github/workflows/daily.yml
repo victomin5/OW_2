@@ -1,0 +1,32 @@
+name: OW2 Daily Stats Collector
+
+on:
+  schedule:
+    # 매일 UTC 15시 (한국 시간 자정 00:00)에 실행
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # v3에서 v4로 업데이트
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4 # v3에서 v4로 업데이트
+        with:
+          node-version: '20' # 최신 노드 버전 사용
+
+      - name: Install dependencies
+        # 🚨 수정됨: 사용자님의 실제 리액트 폴더명(overwatch-meta)으로 진입
+        run: |
+          cd overwatch-meta
+          npm install
+
+      - name: Run Collector
+        # 🚨 수정됨: 방금 만든 봇 파일(updateData.js)을 실행
+        run: |
+          cd overwatch-meta
+          node updateData.js

@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# custom
+.env
+collector.js  # (혹시 수집기 스크립트에 보안 정보가 있다면 포함, 아니면 빼도 됨)
+node_modules
