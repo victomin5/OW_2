@@ -76,7 +76,7 @@ const MATCHUP_DATA = {
     // 공격 (Damage)
     "genji": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "widowmaker": { advantage: 'favorable', label: '유리', desc: '' },
-    "ash": { advantage: 'neutral', label: '중립', desc: '' },
+    "ashe": { advantage: 'neutral', label: '중립', desc: '' },
     "sojourn": { advantage: 'unfavorable', label: '불리', desc: '' },
     "echo": { advantage: 'unfavorable', label: '불리', desc: '' },
     "pharah": { advantage: 'unfavorable', label: '불리', desc: '' },
@@ -126,7 +126,7 @@ const MATCHUP_DATA = {
     "sojourn": { advantage: 'favorable', label: '약간 유리', desc: '' },
     "bastion": { advantage: 'neutral', label: '중립', desc: '' },
     "vendetta": { advantage: 'neutral', label: '중립', desc: '' },
-    "ash": { advantage: 'neutral', label: '중립', desc: '' },
+    "ashe": { advantage: 'neutral', label: '중립', desc: '' },
     "widowmaker": { advantage: 'neutral', label: '중립', desc: '' },
     "freya": { advantage: 'neutral', label: '중립', desc: '' },
     "mei": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
@@ -168,7 +168,7 @@ const MATCHUP_DATA = {
     "zarya": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
 
     // 공격 (Damage)
-    "ash": { advantage: 'favorable', label: '매우 유리', desc: '' },
+    "ashe": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "emre": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "cassidy": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "tracer": { advantage: 'favorable', label: '매우 유리', desc: '' },
@@ -228,14 +228,14 @@ const MATCHUP_DATA = {
     "soldier-76": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "widowmaker": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "genji": { advantage: 'favorable', label: '유리', desc: '' },
-    "bastion-recon": { advantage: 'favorable', label: '유리', desc: '수색 모드' },
+    "bastion": { advantage: 'favorable', label: '유리', desc: '수색 모드' },
     "anran": { advantage: 'favorable', label: '유리', desc: '' },
     "emre": { advantage: 'favorable', label: '유리', desc: '' },
     "venture": { advantage: 'favorable', label: '약간 유리', desc: '' },
     "sojourn": { advantage: 'favorable', label: '약간 유리', desc: '' },
     "symmetra": { advantage: 'favorable', label: '약간 유리', desc: '' },
     "vendetta": { advantage: 'neutral', label: '중립', desc: '' },
-    "ash": { advantage: 'neutral', label: '중립', desc: '' },
+    "ashe": { advantage: 'neutral', label: '중립', desc: '' },
     "hanzo": { advantage: 'neutral', label: '중립', desc: '' },
     "cassidy": { advantage: 'neutral', label: '중립', desc: '' },
     "tracer": { advantage: 'neutral', label: '중립', desc: '' },
@@ -244,7 +244,7 @@ const MATCHUP_DATA = {
     "junkrat": { advantage: 'unfavorable', label: '불리', desc: '' },
     "freya": { advantage: 'unfavorable', label: '불리', desc: '' },
     "mei": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
-    "bastion-assault": { advantage: 'unfavorable', label: '매우 불리', desc: '강습 모드' },
+    "bastion": { advantage: 'unfavorable', label: '매우 불리', desc: '강습 모드' },
     "sombra": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
     "echo": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
     "pharah": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
@@ -285,7 +285,7 @@ const MATCHUP_DATA = {
     // 공격군 (Damage)
     "genji": { advantage: 'favorable', label: '매우 유리', desc: '용검 시 매우 유리 / 평상시 불리' },
     "widowmaker": { advantage: 'favorable', label: '유리', desc: '' },
-    "ash": { advantage: 'favorable', label: '유리', desc: '' },
+    "ashe": { advantage: 'favorable', label: '유리', desc: '' },
     "sojourn": { advantage: 'favorable', label: '유리', desc: '' },
     "venture": { advantage: 'favorable', label: '유리', desc: '' },
     "soldier-76": { advantage: 'favorable', label: '유리', desc: '대치 시 유리 / 그 외 불리' },
@@ -324,7 +324,6 @@ const MATCHUP_DATA = {
     "winston": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "doomfist": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "ramattra": { advantage: 'favorable', label: '매우 유리', desc: '' },
-    "venture": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "hazard": { advantage: 'favorable', label: '유리', desc: '' },
     "wrecking-ball": { advantage: 'favorable', label: '유리', desc: '' },
     "dva": { advantage: 'neutral', label: '중립', desc: '' },
@@ -339,14 +338,18 @@ const MATCHUP_DATA = {
     "genji": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "vendetta": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "anran": { advantage: 'favorable', label: '매우 유리', desc: '' },
+    "venture": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "mei": { advantage: 'favorable', label: '유리', desc: '' },
     "sombra": { advantage: 'favorable', label: '유리', desc: '' },
     "symmetra": { advantage: 'favorable', label: '유리', desc: '' },
     "cassidy": { advantage: 'favorable', label: '유리', desc: '' },
     "torbjorn": { advantage: 'favorable', label: '유리', desc: '' },
     "reaper": { advantage: 'neutral', label: '중립', desc: '' },
-    "ash": { advantage: 'neutral', label: '중립', desc: '' },
+    "ashe": { advantage: 'neutral', label: '중립', desc: '' }, // ash -> ashe 수정
     "hanzo": { advantage: 'neutral', label: '중립', desc: '' },
+    "tracer": { advantage: 'neutral', label: '중립', desc: '' }, // 트레이서 추가
+    "bastion": { advantage: 'unfavorable', label: '불리', desc: '' }, // 바스티온 추가
+    "echo": { advantage: 'unfavorable', label: '불리', desc: '' }, // 에코 추가
     "junkrat": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
     "sojourn": { advantage: 'unfavorable', label: '불리', desc: '' },
     "soldier-76": { advantage: 'unfavorable', label: '불리', desc: '' },
@@ -364,6 +367,7 @@ const MATCHUP_DATA = {
     "kiriko": { advantage: 'favorable', label: '유리', desc: '' },
     "lifeweaver": { advantage: 'neutral', label: '중립', desc: '' },
     "moira": { advantage: 'neutral', label: '중립', desc: '' },
+    "brigitte": { advantage: 'neutral', label: '중립', desc: '' }, // 브리기테 추가
     "zenyatta": { advantage: 'unfavorable', label: '불리', desc: '' },
     "jetpack-cat": { advantage: 'unfavorable', label: '불리', desc: '' },
     "ana": { advantage: 'unfavorable', label: '매우 불리', desc: '최악의 천적' }
@@ -400,7 +404,7 @@ const MATCHUP_DATA = {
     "bastion": { advantage: 'unfavorable', label: '불리', desc: '' },
     "vendetta": { advantage: 'unfavorable', label: '불리', desc: '' },
     "sojourn": { advantage: 'unfavorable', label: '불리', desc: '' },
-    "ash": { advantage: 'unfavorable', label: '불리', desc: '' },
+    "ashe": { advantage: 'unfavorable', label: '불리', desc: '' },
     "widowmaker": { advantage: 'unfavorable', label: '불리', desc: '' },
     "junkrat": { advantage: 'unfavorable', label: '불리', desc: '' },
     "freya": { advantage: 'unfavorable', label: '불리', desc: '' },
@@ -446,7 +450,7 @@ const MATCHUP_DATA = {
     "cassidy": { advantage: 'favorable', label: '유리', desc: '' },
     "freya": { advantage: 'favorable', label: '유리', desc: '' },
     "bastion": { advantage: 'favorable', label: '약간 유리', desc: '' },
-    "ash": { advantage: 'favorable', label: '약간 유리', desc: '' },
+    "ashe": { advantage: 'favorable', label: '약간 유리', desc: '' },
     "torbjorn": { advantage: 'favorable', label: '약간 유리', desc: '' },
     "reaper": { advantage: 'neutral', label: '중립', desc: '' },
     "venture": { advantage: 'neutral', label: '중립', desc: '' },
@@ -550,7 +554,7 @@ const MATCHUP_DATA = {
     "symmetra": { advantage: 'favorable', label: '유리', desc: '포탑 제거 용이 / 3단계 빨대 주의' },
     "anran": { advantage: 'favorable', label: '유리', desc: '' },
     "emre": { advantage: 'favorable', label: '유리', desc: '' },
-    "ash": { advantage: 'favorable', label: '약간 유리', desc: '충격 샷건 유무 확인 후 진입' },
+    "ashe": { advantage: 'favorable', label: '약간 유리', desc: '충격 샷건 유무 확인 후 진입' },
     "sojourn": { advantage: 'favorable', label: '약간 유리', desc: '방벽으로 레일건 충전 최소화' },
     "mei": { advantage: 'favorable', label: '약간 유리', desc: '지붕이 높은 곳에서 교전 유리' },
     "pharah": { advantage: 'favorable', label: '약간 유리', desc: '우클릭 견제 및 공중 타격 가능' },
@@ -603,20 +607,20 @@ const MATCHUP_DATA = {
     "cassidy": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "anran": { advantage: 'favorable', label: '매우 유리', desc: '' },
     "tracer": { advantage: 'favorable', label: '유리', desc: '' },
-    "bastion-recon": { advantage: 'favorable', label: '유리', desc: '수색 모드' },
+    "bastion": { advantage: 'favorable', label: '유리', desc: '수색 모드' },
     "venture": { advantage: 'favorable', label: '유리', desc: '' },
     "torbjorn": { advantage: 'favorable', label: '유리', desc: '' },
     "vendetta": { advantage: 'neutral', label: '유동적', desc: '' },
     "freya": { advantage: 'unfavorable', label: '불리', desc: '대인전 불리 / 운영 유리' },
     "soldier-76": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
-    "ash": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
+    "ashe": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
     "symmetra": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
     "mei": { advantage: 'unfavorable', label: '불리', desc: '' },
     "sojourn": { advantage: 'unfavorable', label: '불리', desc: '' },
     "echo": { advantage: 'unfavorable', label: '불리', desc: '' },
     "emre": { advantage: 'unfavorable', label: '불리', desc: '' },
     "widowmaker": { advantage: 'unfavorable', label: '불리', desc: '' },
-    "bastion-assault": { advantage: 'unfavorable', label: '매우 불리', desc: '강습 모드' },
+    "bastion": { advantage: 'unfavorable', label: '매우 불리', desc: '강습 모드' },
     "hanzo": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
     "pharah": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
 
@@ -667,7 +671,7 @@ const MATCHUP_DATA = {
     "sombra": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
     "hanzo": { advantage: 'unfavorable', label: '약간 불리', desc: '' },
     "mei": { advantage: 'unfavorable', label: '불리', desc: '' },
-    "ash": { advantage: 'unfavorable', label: '불리', desc: '' },
+    "ashe": { advantage: 'unfavorable', label: '불리', desc: '' },
     "echo": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
     "widowmaker": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
     "junkrat": { advantage: 'unfavorable', label: '매우 불리', desc: '' },
@@ -932,8 +936,12 @@ function App() {
                                           const matchedHeroes = MATCHUP_DATA[stat.hero] 
                                             ? Object.entries(MATCHUP_DATA[stat.hero]).filter(([k, v]) => {
                                                 const hInfo = heroesInfo[k];
-                                                // API 데이터의 역할군과 일치하고, 상성 라벨이 포함되는지 확인
-                                                return hInfo?.role === roleGroup && v.label.includes(grade.filter);
+                                                // '약간 유리'는 '유리'에, '약간 불리'는 '불리'에 포함되도록 정확하게 매칭 (중복 방지)
+                                                const exactMatch = v.label === grade.filter || 
+                                                                  (grade.filter === '유리' && v.label === '약간 유리') || 
+                                                                  (grade.filter === '불리' && v.label === '약간 불리');
+                                                                  
+                                                return hInfo?.role === roleGroup && exactMatch;
                                               })
                                             : [];
 
